@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
     root 'pages#index'
-     get 'pages/home'
+     get 'pages/software'
+     get 'pages/hardware'
+     get 'pages/networking'
       get 'pages/admin'
   mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
 
